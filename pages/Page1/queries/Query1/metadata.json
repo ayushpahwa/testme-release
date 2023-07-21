@@ -18,13 +18,8 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM <<your_table_name>> LIMIT 10;\n\n-- Please enter a valid table name and hit RUN",
-      "selfReferencingDataPaths": [],
-      "pluginSpecifiedTemplates": [
-        {
-          "value": true
-        }
-      ]
+      "body": "SELECT * FROM public.\"astronauts\" LIMIT 10;",
+      "selfReferencingDataPaths": []
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [],

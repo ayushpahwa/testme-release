@@ -18,15 +18,10 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM <<your_table_name>> LIMIT 10;\n\n-- Please enter a valid table name and hit RUN",
-      "selfReferencingDataPaths": [],
-      "pluginSpecifiedTemplates": [
-        {
-          "value": true
-        }
-      ]
+      "body": "SELECT * FROM public.\"category\" LIMIT 10;",
+      "selfReferencingDataPaths": []
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -35,7 +30,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-07-21T03:28:22Z"
   },
   "id": "Page1_Query2",
   "deleted": false,
